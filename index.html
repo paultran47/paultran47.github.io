@@ -20,11 +20,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="canonical" href="https://paulletran.com/">
     <!-- Preloading lazyload-css-min.js, mobile-menu-min.js, and minimal-analytics.js with high priority -->
-    <link rel="preload" href="/js/lazyload-css-min.js" as="script" fetchpriority="high">
+    <link rel="preload" href="/js/lazyload-css.js" as="script" fetchpriority="high">
     <link rel="preload" href="/js/mobile-menu-min.js" as="script" fetchpriority="high">
     <link rel="preload" href="/js/minimal-analytics.js" as="script" fetchpriority="high">
     <!-- Defer loading lazyload-css-min.js mobile-menu-min.js, and minimal-analytics.js -->
-    <script defer src="/js/lazyload-css-min.js"></script>
+    <script defer src="/js/lazyload-css.js"></script>
     <script defer src="/js/mobile-menu-min.js"></script>
     <script defer src="/js/minimal-analytics.js"></script>
     <!-- Preloading .woff2 web fonts with high priority -->
@@ -86,7 +86,7 @@
     </style>
     <!-- Lazy-loading preloaded style-min.css -->
     <noscript data-css-lazyload>
-      <link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">
+      <link href="/vbscript:css/style-min.css" rel="stylesheet" fetchpriority="low">
     </noscript>
   </head>
   <body>
