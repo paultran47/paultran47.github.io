@@ -75,7 +75,7 @@ Below are some features of my website that I feel are noteworthy:
 
 * The website source code is entirely vanilla HTML5, CSS, and JS. This was
 consciously done to make the source code (and all of its mistakes) completely
-understandable to all programmers.
+understandable to all programmers
 
 * Entire website is written in semantic HTML
   * Usage of div and span tags are strictly for styling purposes and kept at a minimum
@@ -87,30 +87,28 @@ understandable to all programmers.
 * HTML5 and CSS code of every website page pass the W3C validators with no errors
   * HTML5 code is checked using the [Nu HTML checker](https://validator.w3.org/nu/)
   * Usage of the modal pseudo-class in reset.css results in the [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
-  to throw an error because the pseudo-class is currently in Selectors Level 4.
+  to throw an error because the pseudo-class is currently in Selectors Level 4
   However, because the pseudo-class works as intended in all modern browsers, I
-  do not view this as an actual CSS code error.
+  do not view this as an actual CSS code error
   * W3C "validation" links are displayed in the footer of every website page
     * Links allow for quick re-validation of every page
-    * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines)).
+    * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines))
     The reason for this is because these sub-sites are generated using the
-    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
+    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman)
     As a result, the W3C validation results wouldn't be reflecting my own design
-    and code.
+    and code
 
 * Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as
 its sole font. This choice is because the font is not only clean and legible (e.g.,
 increased letter height), but has ligature support, italics support, wide
-language support, and is both free and open source.
-  * The font is also my font-of-choice for all development interfaces.
+language support, and is both free and open source
+  * The font is also my font-of-choice for all development interfaces
 
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
   1. All CSS and JS are minified at the source code
-  2. All HTML, CSS, and JS are [Brotli compressed via Cloudflare](https://developers.cloudflare.com/speed/optimization/content/compression/)
-  to browsers, with Gzip compression as a fallback
-      * I will enable Zstandard compression (with Brotli, then Gzip compression
-      as a fallback order) when the feature is fully rolled out to users
+  2. All HTML, CSS, and JS are [Zstandard compressed via Cloudflare](https://developers.cloudflare.com/speed/optimization/content/compression/)
+  to browsers, with Brotli then Gzip compression as a fallback order
   3. remedy.css and reset.css are both inlined in the head tags
   4. Critical CSS for initial rendering of every page are inlined in the head
   tags
@@ -121,7 +119,7 @@ mobile connections. This speed is achieved by:
   with `font-display: swap;` and use locally hosted fonts before pulling from
   origin or cache. The website's fallback font, Courier New (Courier for MacOS),
   has been tuned and optimised to mimic JetBrains Mono. This makes the web font
-  "nice to have" rather than a critical component to experiencing the website.
+  "nice to have" rather than a critical component to experiencing the website
   Thus, the font property and attribute prevents FOIT allows for JetBrains Mono
   to appear on first page view without being a render-blocking resource
       * I will retune my fallback fonts using the new `@font-face` attributes
@@ -146,10 +144,10 @@ resolutions, both desktop and mobile
 
 * Every website page has a Google Lighthouse of 100/100 (99/100) on desktop (mobile).
   * I am not including the Google Lighthouse scores of my project sub-sites
-  (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines)).
+  (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines))
   This decision is because these sub-sites are generated using the default GitHub
   Pages theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the
-  scores wouldn't be reflecting my own design and code.
+  scores wouldn't be reflecting my own design and code
 
 * Favicon support for every platform (with different favicon embedded for night
 mode support).
@@ -168,8 +166,9 @@ mode support).
 * [GitHub Pages](https://pages.github.com/) for hosting
 * [Google Domains](https://domains.google/) for the awesome domain
 * [CloudFlare](https://www.cloudflare.com/) for DNS management and security,
-full SSL/TLS encryption mode, HTTPS enforcement, Argo smart routing, Brotli
-compression, tiered cache, the fancy green lock :lock:, and a whole lot more
+full SSL/TLS encryption mode, HTTPS enforcement, Argo smart routing, Zstandard
+compression, tiered cache, Cache Reserve, the fancy green lock :lock:, and a
+whole lot more
 * [git](https://git-scm.com/) for source control
 
 <p align="right">
@@ -180,12 +179,11 @@ compression, tiered cache, the fancy green lock :lock:, and a whole lot more
 
 ### Google Lighthouse and Real User Measurement scores
 
-100/100 (99/100) for every website page on desktop (mobile) for You can't get
+* 100/100 (99/100) for every website page on desktop (mobile) for You can't get
 anymore optimised than that (technically you can, but marginal utility is
-negative at that point lol).
-
-To view the full reports, please visit [this subdirectory](https://github.com/paultran47/paultran47.github.io/tree/master/lighthouse)
-and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
+negative at that point lol)
+  * To view the full reports, please visit [this subdirectory](https://github.com/paultran47/paultran47.github.io/tree/master/lighthouse)
+and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/)
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
