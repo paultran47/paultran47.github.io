@@ -114,7 +114,7 @@ mobile connections. This speed is achieved by:
   tags
   5. All non-critical CSS are preloaded with low priority then lazy-loaded in
   such a way that works with any kind of strict Content Security Policy that
-  disallows `unsafe-inline`!
+  disallows `unsafe-inline`
   6. Web fonts (i.e., JetBrains Mono) are preloaded with high priority, loaded
   with `font-display: swap;` and use locally hosted fonts before pulling from
   origin or cache. The website's fallback font, Courier New (Courier for MacOS),
@@ -205,9 +205,9 @@ Below are the awesome resources used to make my website as optimised as possible
 * [Google Closure Compiler](https://github.com/google/closure-compiler) for
 minification of JS in strict mode
   * Extra credit to [Dimitrii Tikhomirov's web-based UI and REST API](https://github.com/treblereel/jscompressor)
-  for Closure Compiler!
+  for Closure Compiler
 * [James Hill's Minimal Google Analytics 4 Snippet with localstorage support](https://github.com/jahilldev/minimal-analytics)
-(2kb v. 179kb+ when compiled with Google Closure Compiler!)
+(2kb v. 179kb+ when compiled with Google Closure Compiler)
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator)
 * [jonasjacek's comprehensive robots.txt](https://www.ditig.com/robots-txt-template)
 * [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/)
