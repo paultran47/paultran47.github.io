@@ -3,8 +3,8 @@ const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
   textarea.textContent = html;
   const target_str = '<link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">';
-  const target_str_subpage1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=fcd542eec86cb5705df75eda787a27d37ec19230" rel="stylesheet" fetchpriority="low">';
-  const target_str_subpage2 = '<link href="/latex-cv-with-biblatex/assets/css/style.css?v=485b3d13d2f0ae801559f72b411fb426c61a2b61" rel="stylesheet" fetchpriority="low">';
+  const target_str_subpage1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=31c268e0528b1d2ba98c58c5f24cda68c836b46c" rel="stylesheet" fetchpriority="low">';
+  const target_str_subpage2 = '<link href="/latex-cv-with-biblatex/assets/css/style.css?v=89baa49c0354cb4e8dcb37f6b7636d9d4583bcec" rel="stylesheet" fetchpriority="low">';
   const escapedHTML = textarea.value.trim();
   const sanitisedHTML = escapedHTML.replace(/(javascript:|data:|vbscript:)/gi, '');
   if (sanitisedHTML === target_str || sanitisedHTML === target_str_subpage1 || sanitisedHTML === target_str_subpage2) {
