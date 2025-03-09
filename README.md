@@ -5,36 +5,12 @@
 <details>
   <summary>Table of contents</summary>
   <ul>
-    <li>
-      <a href="#overview">
-        Overview
-      </a>
-      <ul>
-        <li>
-          <a href="#notable-features">
-            Notable features
-          </a>
-        </li>
-        <li>
-          <a href="#reporting-vulnerabilities">
-            Reporting vulnerabilities
-          </a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#built-with">Built with:</a>
-    </li>
-    <li>
-      <a href="#google-lighthouse-and-real-user-measurement-scores">
-        Google Lighthouse scores
-      </a>
-    </li>
-    <li>
-      <a href="#acknowledgements">
-        Acknowledgments
-      </a>
-    </li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#notable-features">Notable features</a></li>
+    <li><a href="#reporting-vulnerabilities">Reporting vulnerabilities</a></li>
+    <li><a href="#built-with">Built with:</a></li>
+    <li><a href="#google-lighthouse-scores">Google Lighthouse scores</a></li>
+    <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ul>
 </details>
 
@@ -56,7 +32,7 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 
 ---
 
-### Reporting vulnerabilities
+## Reporting vulnerabilities
 
 If you discover a vulnerability/error/mistake in the production code of my
 website, please [refer to the instructions found in SECURITY.md](https://github.com/paultran47/paultran47.github.io/blob/master/SECURITY.md)
@@ -69,7 +45,7 @@ soon as possible.
 
 ---
 
-### Notable features
+## Notable features
 
 Below are some features of my website that I feel are noteworthy:
 
@@ -158,7 +134,7 @@ mode support).
 
 ---
 
-### Built with
+## Built with
 
 * [Vanilla HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -177,7 +153,7 @@ whole lot more
 
 ---
 
-### Google Lighthouse and Real User Measurement scores
+## Google Lighthouse Scores
 
 * 100/100 (99/100) for every website page on desktop (mobile) for You can't get
 anymore optimised than that (technically you can, but marginal utility is
@@ -191,7 +167,7 @@ and paste the respective JSON file into the [Lighthouse Report Viewer](https://g
 
 ---
 
-### Acknowledgements
+## Acknowledgements
 
 Below are the awesome resources used to make my website as optimised as possible:
 
