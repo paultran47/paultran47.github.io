@@ -1,6 +1,7 @@
 /*
   Filtered live search function with ARIA22 accessibility.
   Search is case-insensitive, whitespace-sensitive.
+  In filteredsearch-aria22-min.js, livesearch = t
 */
 let cards = document.querySelectorAll('[aria-label="Callout box"]');
 function liveSearch() {
