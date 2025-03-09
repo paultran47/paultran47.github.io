@@ -3,7 +3,7 @@ const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
   textarea.textContent = html;
   const target_str = '<link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">';
-  const target_str_subpage1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=e8813985ef200d5c8ecad1ca087db3802f9d26ce" rel="stylesheet" fetchpriority="low">';
+  const target_str_subpage1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=9b63f89a8bf26dd80a6634c691f8bf8411190f2f" rel="stylesheet" fetchpriority="low">';
   const target_str_subpage2 = '<link href="/latex-cv-with-biblatex/assets/css/style.css?v=89baa49c0354cb4e8dcb37f6b7636d9d4583bcec" rel="stylesheet" fetchpriority="low">';
   const escapedHTML = textarea.value.trim();
   const sanitisedHTML = escapedHTML.replace(/(javascript:|data:|vbscript:)/gi, '');
