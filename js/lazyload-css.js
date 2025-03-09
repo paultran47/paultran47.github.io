@@ -3,8 +3,9 @@ const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
   textarea.textContent = html;
   const target_str = '<link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">';
+  const target_str_subsites = '<link href="/assets/css/style.css" rel="stylesheet" fetchpriority="low">';
   const escapedHTML = textarea.value.trim();
-  if (escapedHTML === target_str) {
+  if (escapedHTML === target_str || escapedHTML === target_str_subsites) {
     return escapedHTML;
   }
   else {
