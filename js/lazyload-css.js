@@ -3,11 +3,12 @@ const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
   textarea.textContent = html;
   const target_str = '<link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">';
-  const target_str_subsite1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=43689b4a5deb69920fb8ecdc03d8039b7129af38" rel="stylesheet" fetchpriority="low">';
+  const target_str_subsite1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=7d395109f15cd5cef9e978050ebab777553e592f" rel="stylesheet" fetchpriority="low">';
   const target_str_subsite2 = '<link href="/latex-cv-with-biblatex/assets/css/style.css?v=a75545809cf24ebebb02839bc766fa35d60d9fa0" rel="stylesheet" fetchpriority="low">';
   const escapedHTML = textarea.value.trim();
-  if (escapedHTML === target_str || escapedHTML === target_str_subsite1 || escapedHTML === target_str_subsite2) {
-    return escapedHTML;
+  const sanitisedHTML = escapedHTML.replace(/javascript:/gi, '');
+  if (sanitisedHTML === target_str || sanitisedHTML === target_str_subsite1 || sanitisedHTML === target_str_subsite2) {
+    return sanitisedHTML;
   }
   else {
     return false;
