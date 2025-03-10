@@ -174,6 +174,8 @@ Below are the awesome resources used to make my website as optimised as possible
 * [ymatuhin's online interactive demo of Autoprefixer CSS](https://github.com/autoprefixer/autoprefixer.github.io)
 * [Mario Ranftl's google-webfonts-helper](https://github.com/majodev/google-webfonts-helper)
 * [Monica Dinculescu's font-style-matcher](https://github.com/notwaldorf/font-style-matcher)
+  * [Michael Duve's Auto Font Matcher](https://github.com/dazlious/font-matcher)
+  that optimises `letter-spacing` and `word-spacing` attributes algorithmically.
 * [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 * [Jen Simmons' remedy.css](https://github.com/jensimmons/cssremedy)
 * [Elad Shechter's reset.css](https://elad2412.github.io/the-new-css-reset/)
