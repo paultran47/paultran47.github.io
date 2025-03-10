@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://paulletran.com/</loc>
-    <lastmod>2025-03-06T06:00:55+00:00</lastmod>
+    <lastmod>2025-03-10T07:37:02+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://paulletran.com/research/</loc>
-    <lastmod>2025-03-06T06:00:55+00:00</lastmod>
+    <lastmod>2025-03-10T07:37:02+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://paulletran.com/teaching/</loc>
-    <lastmod>2025-03-06T06:00:55+00:00</lastmod>
+    <lastmod>2025-03-10T07:37:02+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://paulletran.com/more/</loc>
-    <lastmod>2025-03-06T06:00:55+00:00</lastmod>
+    <lastmod>2025-03-10T07:37:02+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://paulletran.com/econ-grad-app-deadlines/</loc>
-    <lastmod>2025-03-06T06:05:29+00:00</lastmod>
+    <lastmod>2025-03-10T07:16:40+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
     <loc>https://paulletran.com/latex-cv-with-biblatex/</loc>
-    <lastmod>2025-03-06T06:03:18+00:00</lastmod>
+    <lastmod>2025-03-10T07:35:12+00:00</lastmod>
     <priority>0.64</priority>
   </url>
 </urlset>
