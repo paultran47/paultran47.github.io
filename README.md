@@ -63,7 +63,7 @@ understandable to all programmers
 * HTML5 and CSS code of every website page pass the W3C validators with no errors
   * HTML5 code is checked using the [Nu HTML checker](https://validator.w3.org/nu/)
   * Usage of the modal pseudo-class in reset.css results in the [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
-  to throw an error because the pseudo-class is currently in Selectors Level 4
+  to throw an error because the pseudo-class is currently in Selectors Level 4.
   However, because the pseudo-class works as intended in all modern browsers, I
   do not view this as an actual CSS code error
   * W3C "validation" links are displayed in the footer of every website page
