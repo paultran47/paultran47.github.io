@@ -8,8 +8,11 @@
 
 ## Overview
 
-The following JS files are minified and asynchronously loaded, but wait until
-the HTML is fully parsed before executing via `defer`:
+The following JS files are minified in strict mode using advanced optimisation
+from Google Closure Compiler via
+[Dimitrii Tikhomirov's web-based UI and REST API](https://github.com/treblereel/jscompressor).
+The files are then asynchronously loaded, but wait until the HTML is fully
+parsed before executing via `defer`:
 
 1. lazyload-css.js: Functionality to lazy-load non-critical inline CSS and works
 with any strict Content Security Policy that disallows `unsafe-inline`.

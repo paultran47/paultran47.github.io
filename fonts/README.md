@@ -19,8 +19,8 @@ The .ttf web font files are then converted to .svg web font files using
 All of the files are to ensure most browsers render webfonts (with system font
 "Courier New" and "Courier" as OS fallback). The fallback fonts are
 optimised for minimal FOIT thanks to [Monica Dinculescu's font-style-matcher](https://github.com/notwaldorf/font-style-matcher)
-and [Michael Duve's Auto Font Matcher](https://github.com/dazlious/font-matcher)
-, that optimises `letter-spacing` and `word-spacing` attributes algorithmically.
+and [Michael Duve's Auto Font Matcher](https://github.com/dazlious/font-matcher),
+that optimises `letter-spacing` and `word-spacing` attributes algorithmically.
 
 Supported browsers include:
 
