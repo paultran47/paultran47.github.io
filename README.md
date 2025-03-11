@@ -70,7 +70,7 @@ understandable to all programmers
     * Links allow for quick re-validation of every page
     * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines))
     The reason for this is because these sub-sites are generated using the
-    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman)
+    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
     As a result, the W3C validation results wouldn't be reflecting my own design
     and code
 
@@ -111,7 +111,7 @@ resolutions, both desktop and mobile
   and displays the "compliance" links in the footer
     * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines))
     The reason for this is because these sub-sites are generated using the
-    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman)
+    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
     As a result, the WCAG 2.2 compliance results wouldn't be reflecting my own design
     and code
   * This design covers displays as small as the JioPhone2 to as large as widescreen
