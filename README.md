@@ -107,6 +107,13 @@ mobile connections. This speed is achieved by:
 
 * Entire website is designed to be responsive for almost all common display
 resolutions, both desktop and mobile
+  * Every page is verified as [WCAG 2.2 compliant](https://www.accessibilitychecker.org/)
+  and displays the "compliance" links in the footer
+    * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines))
+    The reason for this is because these sub-sites are generated using the
+    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman)
+    As a result, the WCAG 2.2 compliance results wouldn't be reflecting my own design
+    and code
   * This design covers displays as small as the JioPhone2 to as large as widescreen
   desktop monitors
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest

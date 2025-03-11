@@ -1342,16 +1342,16 @@ button:-moz-focusring {
   background: var(--colour-research);
 }
 .page-research .box-decoration {
-  height: 630px;
+  height: 680px;
 }
 @media (max-width:300px) {
   .page-research .box-decoration {
-    height:810px
+    height:860px
   }
 }
 @media (min-width: 800px) {
   .page-research .box-decoration {
-    height: 245px;
+    height: 290px;
   }
 }
 .page-teaching a.special-link {
