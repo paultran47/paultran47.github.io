@@ -2,7 +2,7 @@
 # Updates and informantion can be found at:                            #
 # https://www.ditig.com/publications/robots-txt-template               #
 # This document is licensed with a CC BY-NC-SA 4.0 license.            #
-# Last update: 2024-12-09                                              #
+# Last update: 2025-03-04                                              #
 ########################################################################
 User-agent: 360Spider
 User-agent: 360Spider-Image
@@ -11,6 +11,7 @@ User-agent: AdsBot-Google
 User-agent: AdsBot-Google-Mobile
 User-agent: AdsBot-Google-Mobile-Apps
 User-agent: adidxbot
+User-agent: Algolia Crawler
 User-agent: Applebot
 user-agent: AppleNewsBot
 User-agent: Baiduspider
@@ -81,7 +82,13 @@ User-agent: yoozBot
 User-agent: YoudaoBot
 Disallow:
 User-agent: *
-Disallow: /abstract_files/
-Disallow: /bib_files/
-Disallow: /lighthouse_reports/
+Disallow: *.pdf
+Disallow: *.bib
+Disallow: /bib_files/*
+Disallow: /cv/*
+Disallow: /lighthouse/*
+Disallow: /papers/*
+Disallow: /statements/*
+Disallow: /student_evaluations/*
+Disallow: /syllabi/*
 Sitemap: https://www.paulletran.com/sitemap.xml
