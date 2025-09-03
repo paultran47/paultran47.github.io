@@ -1,9 +1,25 @@
 ############################# ROBOTS.TXT ###############################
-# Updates and informantion can be found at:                            #
+# Updates and information can be found at:                             #
 # https://www.ditig.com/publications/robots-txt-template               #
 # This document is licensed with a CC BY-NC-SA 4.0 license.            #
-# Last update: 2025-03-04                                              #
+# Last update: 2025-09-03                                              #
 ########################################################################
+User-agent: Amazonbot
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: meta-externalagent
+Disallow: /
 User-agent: 360Spider
 User-agent: 360Spider-Image
 User-agent: 360Spider-Video
