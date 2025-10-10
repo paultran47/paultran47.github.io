@@ -2,8 +2,11 @@
 # Updates and information can be found at:                             #
 # https://www.ditig.com/publications/robots-txt-template               #
 # This document is licensed with a CC BY-NC-SA 4.0 license.            #
-# Last update: 2025-09-03                                              #
+# Last update: 2025-10-09                                              #
 ########################################################################
+User-Agent: *
+Content-signal: search=yes, ai-train=no
+Allow: /
 User-agent: Amazonbot
 Disallow: /
 User-agent: Applebot-Extended
