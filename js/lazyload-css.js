@@ -4,7 +4,7 @@ const decodeHTML = function(html){
   textarea.textContent = html;
   const target_str = '<link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">';
   const target_str_subpage1 = '<link href="/econ-grad-app-deadlines/assets/css/style.css?v=ed718f461b658d322feede2a0c031b77e7a27cc5" rel="stylesheet" fetchpriority="low">';
-  const target_str_subpage2 = '<link href="/latex-cv-with-biblatex/assets/css/style.css?v=67ad70684778390e48b62d7f580b2d20428322bb" rel="stylesheet" fetchpriority="low">';
+  const target_str_subpage2 = '<link href="/latex-cv-with-biblatex/assets/css/style.css?v=a5af50cbf86f5c71d2327f82aeb05bdd47211863" rel="stylesheet" fetchpriority="low">';
   const escapedHTML = textarea.value.trim();
   const sanitisedHTML = escapedHTML.replace(/(javascript:|data:|vbscript:)/gi, '');
   if (sanitisedHTML === target_str || sanitisedHTML === target_str_subpage1 || sanitisedHTML === target_str_subpage2) {
