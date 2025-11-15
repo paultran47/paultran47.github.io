@@ -1237,7 +1237,7 @@ button:-moz-focusring {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-home .box-decoration {
-  height: 135px;
+  height: 115px;
 }
 @media (max-width:300px) {
   .page-home .box-decoration {
