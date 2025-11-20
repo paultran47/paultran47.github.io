@@ -864,13 +864,6 @@ button:-moz-focusring {
 }
 .box-decoration {
   outline: 4px dashed #f1f1f1;
-  margin-bottom: -112px;
-  height: 435px;
-}
-@media (min-width: 800px) {
-  .box-decoration {
-    height: 230px;
-  }
 }
 @-webkit-keyframes ctabounce1 {
   0% {
@@ -1058,7 +1051,7 @@ button:-moz-focusring {
 .lead {
   font-size: 16px;
   line-height: 38px;
-  margin-top: -115px;
+  margin-top: -155px;
   max-width: 238px;
   margin-bottom: 10px;
 }
@@ -1131,7 +1124,7 @@ button:-moz-focusring {
 }
 @media (min-height: 700px) {
   .page-home .container {
-    margin-top: 255px;
+    margin-top: 137px;
   }
 }
 @media (min-height:800px) {
@@ -1169,7 +1162,7 @@ button:-moz-focusring {
 }
 @media (min-width: 800px) {
   .tagline-container {
-    font-size:13.85px;
+    font-size:22px;
   }
 }
 .tagline-container:hover,
@@ -1209,19 +1202,11 @@ button:-moz-focusring {
   box-shadow: 0 -22px 0 0 var(--colour-main) inset;
   color: rgba(0, 0, 0, 0.87);
 }
-.page-home .box-decoration {
-  height: 115px;
-}
 @media (max-width:300px) {
   .page-home .box-decoration {
     height:155px;
     margin-left: 25px;
     margin-right: 25px;
-  }
-}
-@media (min-width: 800px) {
-  .page-home .box-decoration {
-    height: 95px;
   }
 }
 .page-research a.special-link {
@@ -1314,19 +1299,6 @@ button:-moz-focusring {
   background: #eb1400;
   background: var(--colour-research);
 }
-.page-research .box-decoration {
-  height: 830px;
-}
-@media (max-width:300px) {
-  .page-research .box-decoration {
-    height:1090px
-  }
-}
-@media (min-width: 800px) {
-  .page-research .box-decoration {
-    height: 420px;
-  }
-}
 .page-teaching a.special-link {
   display: inline;
   text-decoration: none;
@@ -1412,19 +1384,6 @@ button:-moz-focusring {
 .page-teaching .icon-menu-close {
   background: #bf5700;
   background: var(--colour-teaching);
-}
-.page-teaching .box-decoration {
-  height: 425px;
-}
-@media (max-width:300px) {
-  .page-teaching .box-decoration {
-    height:615px;
-  }
-}
-@media (min-width: 800px) {
-  .page-teaching .box-decoration {
-    height: 215px;
-  }
 }
 .page-more a {
   color: #af005e;
