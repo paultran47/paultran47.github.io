@@ -204,6 +204,7 @@ quick updates of critical inline CSS
 * [Kevin Powell's tutorial on CSS variables](https://www.youtube.com/watch?v=PHO6TBq_auI&list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi)
 * [Google Squoosh](https://github.com/GoogleChromeLabs/squoosh) for image
 compression and conversion using the best-in-class codecs
+* [Spencer Mortensen's helpful guide on email obfuscation techniques](https://spencermortensen.com/articles/email-obfuscation/)
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)

@@ -1058,23 +1058,23 @@ button:-moz-focusring {
 .lead {
   font-size: 16px;
   line-height: 38px;
-  margin-top: -30px;
-  max-width: 327px;
+  margin-top: -115px;
+  max-width: 238px;
   margin-bottom: 10px;
 }
 @media (min-width: 300px) {
   .lead {
-    max-width: 287px;
+    max-width: 314px;
   }
 }
 @media (min-width: 340px) {
   .lead {
-    max-width: 300px;
+    max-width: 355px;
   }
 }
 @media (min-width: 800px) {
   .lead {
-    margin-top: -113px;
+    margin-top: -275px;
     max-width: 300px;
   }
 }
@@ -1124,85 +1124,58 @@ button:-moz-focusring {
   fill: #fdcc48;
   fill: var(--colour-main);
 }
-@media (min-height:300px) {
+@media (min-height:200px) {
   .page-home .container {
-    margin-top:63px;
-  }
-}
-@media (min-height: 400px) {
-  .page-home .container {
-    margin-top: 64px;
+    margin-top:55px;
   }
 }
 @media (min-height: 700px) {
   .page-home .container {
-    margin-top: 225px;
+    margin-top: 255px;
   }
 }
 @media (min-height:800px) {
   .page-home .container {
-    margin-top: 133px;
+    margin-top: 150px;
   }
 }
 @media (min-width: 800px) {
   .page-home .container {
-    margin-top: -30px;
-  }
-}
-.pt-title {
-  margin-left: 5px;
-}
-@media (max-height: 820px) {
-  .pt-title {
-    width: 85%;
-    padding-left: 6.5%;
-  }
-}
-.title-container {
-  z-index: 2;
-}
-@media (max-width: 300px) {
-  .title-container {
-    padding-bottom: 3%;
-  }
-}
-@media (min-width: 800px) and (max-height: 600px) {
-  .title-container {
-    padding-bottom: 5%;
+    margin-top: 0px;
   }
 }
 .tagline-container {
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
   text-align: right;
-  font-size: 7.5px;
+  font-size: 19.5px;
   color: rgba(0, 0, 0, 0.54);
-  height: 0;
-  position: relative;
-  top: 65px;
-  z-index: 3;
 }
 @media (max-width: 300px) {
   .tagline-container {
-    top:55px;
-    font-size:5.65px;
+    font-size:14.5px;
   }
 }
 @media (min-height: 600px) {
   .tagline-container {
-    top:70px;
-    font-size:8.5px;
+    font-size:20px;
   }
 }
 @media (min-height: 800px) {
   .tagline-container {
-    top:70px;
-    font-size:8px;
+    font-size:21px;
   }
 }
 @media (min-width: 800px) {
   .tagline-container {
-    top:125px;
-    font-size:10.7px;
+    font-size:13.85px;
   }
+}
+.tagline-container:hover,
+.tagline-container:focus-within {
+  color: #0233b7;
+  color: var(--colour-404);
 }
 .filtered-search {
   background-color: #fff;
