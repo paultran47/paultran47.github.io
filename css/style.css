@@ -1055,6 +1055,11 @@ button:-moz-focusring {
   max-width: 238px;
   margin-bottom: 10px;
 }
+@media (max-width: 300px) {
+  .lead {
+    margin-top: -115px;
+  }
+}
 @media (min-width: 300px) {
   .lead {
     max-width: 314px;
