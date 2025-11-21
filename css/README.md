@@ -25,6 +25,9 @@ website. All critical CSS from this sheet is inlined in the heads of each
 individual page. Non-critical CSS can be found exclusively here (critical CSS is
 also in this sheet for redundancy's sake).
 
+4. style-min.css: Minified version of style.css. All non-critical CSS is deployed
+from this file.
+
 remedy.css and reset.css are inlined in the head tags to ensure they are loaded
 in the correct order. style.css is minified and lazy-loaded without using inline
 scripts.
