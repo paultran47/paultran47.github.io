@@ -6,9 +6,9 @@
   <summary>Table of contents</summary>
   <ul>
     <li><a href="#overview">Overview</a></li>
-    <li><a href="#notable-features">Notable features</a></li>
     <li><a href="#reporting-vulnerabilities">Reporting vulnerabilities</a></li>
-    <li><a href="#built-with">Built with:</a></li>
+    <li><a href="#notable-features">Notable features</a></li>
+    <li><a href="#built-with">Built with</a></li>
     <li><a href="#google-lighthouse-scores">Google Lighthouse scores</a></li>
     <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ul>
