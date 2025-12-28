@@ -453,7 +453,6 @@ button:-moz-focusring {
   display: flex;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: flex;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
@@ -1146,7 +1145,7 @@ button:-moz-focusring {
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  text-align: right;
+  justify-content: flex-end;
   font-size: 19.5px;
   color: rgba(0, 0, 0, 0.54);
 }
