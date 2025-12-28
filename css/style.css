@@ -1494,11 +1494,11 @@ figcaption {
 .page-more .account-name svg {
   width: 24px;
 }
-.content-404 h2 {
+.content-404 h1 {
   font-size: 42px;
   line-height: 1.2;
 }
-.content-404 h2 span {
+.content-404 h1 span {
   color: #0233b7;
   color: var(--colour-404);
 }
